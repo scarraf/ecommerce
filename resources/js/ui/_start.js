@@ -36,6 +36,10 @@ require('./modules/jquery-ui.min');
 //--------------------[ LazyLoad ]--------------------//
 require('../functions/lazy_load');
 
+
+//---------------------[Validation]----------------------//
+require('../functions/validation')
+
 //--------------------[ Start Document ]--------------------//
 $(document).ready(function(){
     "use strict";
